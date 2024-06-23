@@ -1,0 +1,355 @@
+<html data-dpr="1" style="font-size: 54px;"><head>
+    <meta charset="utf-8">
+    <title>在线留言</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no, width=device-width" name="viewport">
+    <link rel="stylesheet" href="./styles/font-awesome.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/widget.css">
+    <link rel="stylesheet" href="./styles/variouscomponents.css">
+    <link rel="stylesheet" href="./styles/images.css">
+    <link rel="stylesheet" href="./styles/theme.css">
+    <link rel="stylesheet" href="./styles/color_0.css">
+    <script src="./scripts/jquery.min.js"></script>
+    <!--[if !IE]><!-->
+    <script src="./scripts/base.js"></script>
+    <!--<![endif]-->
+    <!--[if gte IE 9]>
+    <script src="./scripts/base.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+          <link rel="stylesheet" href="./styles/font-awesome-ie7.min.css">
+          <script src="./scripts/selectivizr.js"></script>
+          <script src="./scripts/html5shiv.min.js"></script>
+          <script src="./scripts/respond.min.js"></script>
+          <script src="./scripts/modernizr.min.js"></script>
+        <![endif]-->
+    <link href="./styles/lightbox.min.css" rel="stylesheet">
+    <script src="./scripts/jquery.superslide.js"></script>
+    <script src="./scripts/common.js"></script>
+    <script src="./scripts/theme.js"></script>
+    <!-- feib -->
+    <script type="text/javascript" src="./scripts/layer.js"></script><link rel="stylesheet" href="./scripts/layer.css" id="layui_layer_layercss" style="">
+    <script type="text/javascript" src="./scripts/language.js"></script>
+    <!-- plugins -->
+    <script type="text/javascript" src="./scripts/jquery.formsvalidation.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.nodecommon.js"></script>
+    <script type="text/javascript" src="./scripts/extend.js"></script>
+    <link rel="stylesheet" href="./styles/animate.min.css">
+    <script src="./scripts/animate.min.js"></script>
+    <script type="text/javascript" src="./scripts/components.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.menu_style.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.init.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        dataAnimate();
+        (function($,lanno){
+            if(lanno === "" || lanno === "default"){
+                return '';
+            }
+            $(".w-languege").each(function(){
+                $(this).find("a").each(function(){
+                    if($(this).data("lanno") === lanno){
+                        $(this).addClass("cur");
+                    }else{
+                        if($(this).hasClass("cur")){
+                            $(this).removeClass("cur");
+                        }
+                    }
+                });
+            });
+        })(jQuery,"cn");
+    });
+    </script>
+    </head>
+    <body style="font-size: 12px;">
+    <div class="body">
+        <div id="header" ></div>
+        <script>
+          $(function(){
+        $("#header").load("header.html"); 
+      });
+      </script>
+      <section class="w-container bannerBox ">
+        <div class="banner" style="height: auto;"> <img src="./images/1-24032011164E21.png" alt="" title="" style=""> <a href="javascript:void(0);" target="_self"><span style="display:none;">none</span></a> </div>
+      </section>
+      <div class="w-container w-main" style="min-height: 0px;">
+        <div class="w-section pdTop-big pdBottom-large">
+          <div class="row" style="max-width:;">
+            <div class="row-mask"></div>
+            <div class="wrap-content-in  pdTop-default pdBottom-default">
+              <div class="li-div">
+                <div class="w-title w-title16" style="">
+                  <div class="w-title-in">
+                    <div class="w-title-inner">
+                      <div class="title-h-in">
+                        <h2 class="color_main color_h" style="" data-type="title">ONLINE MESAGER</h2>
+                        <span class="color_vice color_span" style="" data-type="subtitle">在线留言 </span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="li-div">
+                <div class="w-space space-b noChoose" style="height:30px;">
+                  <div class="stretch-b"></div>
+                </div>
+              </div>
+              <div class="li-div col-li-div">
+                <div class="col-table">
+                  <table class="div-table div-table-first" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                      <tr>
+                        
+                        <td class="td-w" width="29%"><div class="div-padding">
+                            <div class="li-div">
+                              <div class="w-space space-b noChoose" style="height:40px;">
+                                <div class="stretch-b"></div>
+                              </div>
+                            </div>
+                          </div></td>
+                        <td class="td-w" width="42%"><div class="div-padding">
+                            <div class="li-div">
+                              <div class="w-form" style=""><form method="POST" class="guest-form" enctype="multipart/form-data" action="./a" id="myform">
+                                <div class="li-div">
+                                  <div class="w-form-section  w-form-UL clearfix" style="">
+                                    <div class="w-form-shartText">
+                                      <label class="w-label-form"> <span>姓名</span> </label>
+                                      <div class="w-form-fr" style="">
+                                        <input class="w-text-form" style="width:100%" type="text" name="attr_1" id="attr_1">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="li-div">
+                                  <div class="w-form-section  w-form-UL clearfix" style="">
+                                    <div class="w-form-tel">
+                                      <label class="w-label-form"> <span>电话</span> </label>
+                                      <div class="w-form-fr" style="">
+                                        <input class="w-text-form" style="width:100%" type="tel" name="attr_2" id="attr_2">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="li-div">
+                                  <div class="w-form-section  w-form-UL clearfix" style="">
+                                    <div class="w-form-Email">
+                                      <label class="w-label-form"> <span>邮箱</span> </label>
+                                      <div class="w-form-fr" style="">
+                                        <input class="w-text-form" style="width:100%" type="email" name="attr_3" id="attr_3">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <div class="li-div">
+                                  <div class="w-form-section w-form-UL clearfix" style="">
+                                    <div class="w-form-largeText">
+                                      <label class="w-label-form"> 内容 </label>
+                                      <div class="w-form-fr" style="">
+                                        <textarea class="w-textarea-form" style="width:100%;height:" name="attr_4" id="attr_4"></textarea>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                
+                                <div class="w-form-submit">
+                                  <div class="w-buttom" style="">
+                                    <div class="btn-default-w g-form-components" onclick="checkForm();"> <span class="btn-inner">提交</span> </div>
+                                  </div>
+                                </div>
+                              </form></div>
+                            
+                        
+                              <script type="text/javascript">
+        function submit119a85f6b7555b43d806d9cef3316ffa(elements)
+        {
+            if (document.getElementById('gourl_119a85f6b7555b43d806d9cef3316ffa')) {
+                document.getElementById('gourl_119a85f6b7555b43d806d9cef3316ffa').value = window.location.href;
+            }
+            
+            
+            elements.submit();
+        }
+    
+        function ey_fleshVerify(id)
+        {
+            var src = "/index.php?m=api&c=Ajax&a=vertify&type=guestbook&lang=cn";
+            src += "&r="+ Math.floor(Math.random()*100);
+            document.getElementById(id).src = src;
+        }
+    
+        // function f9a2a37d7b9977d59a6d4c93f86506b2c()
+        // {
+        //     //步骤一:创建异步对象
+        //     var ajax = new XMLHttpRequest();
+        //     //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+        //     ajax.open("post", "/index.php?m=api&c=Ajax&a=get_token&name=__token__119a85f6b7555b43d806d9cef3316ffa", true);
+        //     // 给头部添加ajax信息
+        //     ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+        //     // 如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定您希望发送的数据：
+        //     ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        //     //步骤三:发送请求+数据
+        //     ajax.send('_ajax=1');
+        //     //步骤四:注册事件 onreadystatechange 状态改变就会调用
+        //     ajax.onreadystatechange = function () {
+        //         //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+        //         if (ajax.readyState==4 && ajax.status==200) {
+        //     　　　　document.getElementById("119a85f6b7555b43d806d9cef3316ffa").value = ajax.responseText;
+        //       　}
+        //     } 
+        // }
+        // f9a2a37d7b9977d59a6d4c93f86506b2c();
+        function getNext1598839807(id,name,level) {
+            var input = document.getElementById('attr_'+name);
+            var first = document.getElementById('first_id_'+name);
+            var second = document.getElementById('second_id_'+name);
+            var third = document.getElementById('third_id_'+name);
+            var findex ='', fvalue = '',sindex = '',svalue = '',tindex = '',tvalue = '',value='';
+    
+            if (level == 1){
+                if (second) {
+                    second.style.display = 'none';
+                    second.innerHTML  = ''; 
+                }
+                if (third) {
+                    third.style.display = 'none';
+                    third.innerHTML  = '';
+                }
+                findex = first.selectedIndex;
+                fvalue = first.options[findex].value;
+                input.value = fvalue;
+                value = fvalue;
+            } else if (level == 2){
+                if (third) {
+                    third.style.display = 'none';
+                    third.innerHTML  = '';
+                }
+                findex = first.selectedIndex;
+                fvalue = first.options[findex].value;
+                sindex = second.selectedIndex;
+                svalue = second.options[sindex].value;
+                if (svalue) {
+                    input.value = fvalue+','+svalue;
+                    value = svalue;
+                }else{
+                    input.value = fvalue;
+                }
+            } else if (level == 3){
+                findex = first.selectedIndex;
+                fvalue = first.options[findex].value;
+                sindex = second.selectedIndex;
+                svalue = second.options[sindex].value;
+                tindex = third.selectedIndex;
+                tvalue = third.options[tindex].value;
+                if (tvalue) {
+                    input.value = fvalue+','+svalue+','+tvalue;
+                    value = tvalue;
+                }else{
+                    input.value = fvalue+','+svalue;
+                }
+            } 
+            if (value) {
+                if(document.getElementById(id))
+                {
+                    document.getElementById(id).options.add(new Option('请选择','')); 
+                    var ajax = new XMLHttpRequest();
+                    //步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
+                    ajax.open("post", "/index.php?m=api&c=Ajax&a=get_region&pid="+value, true);
+                    // 给头部添加ajax信息
+                    ajax.setRequestHeader("X-Requested-With","XMLHttpRequest");
+                    // 如果需要像 HTML 表单那样 POST 数据，请使用 setRequestHeader() 来添加 HTTP 头。然后在 send() 方法中规定您希望发送的数据：
+                    ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+                    //步骤三:发送请求+数据
+                    ajax.send('_ajax=1');
+                    //步骤四:注册事件 onreadystatechange 状态改变就会调用
+                    ajax.onreadystatechange = function () {
+                        //步骤五 如果能够进到这个判断 说明 数据 完美的回来了,并且请求的页面是存在的
+                        if (ajax.readyState==4 && ajax.status==200) {
+                            var data = JSON.parse(ajax.responseText).data;
+                            if (data) {
+                                data.forEach(function(item) {
+                               document.getElementById(id).options.add(new Option(item.name,item.id)); 
+                               document.getElementById(id).style.display = "block";
+    
+                            });
+                            }
+                      　}
+                    }
+                }
+            }
+        }
+    </script>                          
+                              <script type="text/javascript">
+                                function checkForm()
+                                {
+                                  if(document.getElementById('attr_1').value.length == 0)
+                                  {
+                                    alert('请输入您的姓名');
+                                    return false;
+                                  }
+                                  if(document.getElementById('attr_2').value.length == 0)
+                                  {
+                                    alert('请输入您的电话');
+                                    return false;
+                                  }
+                                  document.getElementById('myform').submit();
+                                }
+                              </script> 
+                                                      </div>
+                            <div class="li-div">
+                              <div class="w-text" style="">
+                                <style type="text/css">
+    .w-form-code,.w-form-submit{margin-left:2.5em;}
+      @media (max-width:480px){
+        .w-form-code,.w-form-submit{margin-left:0;}
+      }
+    </style>
+                              </div>
+                            </div>
+                          </div></td>
+                          <td class="td-w" width="29%"><div class="div-padding">
+                            <div class="li-div">
+                              <div class="w-space space-b noChoose" style="height:40px;">
+                                <div class="stretch-b"></div>
+                              </div>
+                            </div>
+                          </div></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="li-div">
+                <div class="w-space space-b noChoose" style="height:40px;">
+                  <div class="stretch-b"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript">$(function(){$(".div-table-first").find(".div-table-first").each(function(){$(this).removeClass("div-table-first")});});</script> 
+      </div>
+      
+    
+    <!-- 应用插件标签 start --> 
+      
+    <!-- 应用插件标签 end -->
+    </div>
+    <div class="topTel" onclick="$('body,html').animate({scrollTop: 0}, 500);"><i class="fa fa-arrow-up"></i></div>
+    
+    <script type="text/javascript" src="./scripts/jquery.global.js"></script> 
+    <script type="text/javascript" src="./scripts/jquery.form.js"></script> 
+    <script type="text/javascript" src="./scripts/lightbox.min.js"></script><div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div> 
+    <script type="text/javascript" src="./scripts/jquery.custom.js"></script> 
+    
+    
+    </body></html>
