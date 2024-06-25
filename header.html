@@ -2396,9 +2396,9 @@
         <div class="row clearfix">
             <div class="mobile-nav-toggle"><i class="fa fa-navicon fa-2x"></i></div>
             <div class="nav_right_mask"></div>
-            <div class="row_top">
+            <div class="row_top" style="display:flex;justify-content: center;" >
                 <div class="row_top_in clearfix">
-                    <div class="column column6">
+                    <div class="column">
                         <div class="col-logo">
                             <div class="w-logo">
                                 <h1 style="display:none;"><a href="./"></a></h1>
@@ -2439,6 +2439,17 @@
                                             href="./business.html">主营业务</a></div>
                                     <i class="nav_simpline_cur"></i>
                                 </li>
+                                <li class="advantage-header">
+                                    <div class="li-parent-div li-parentOne-div"><a href="./advantage.html">业务优势<i class="fa fa-plus"></i></a></div>
+                                    <i class="nav_simpline_cur"></i>                   <div class="submenu" style="display: none;">
+                                      <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                                      <ul>
+                                                              <li><a href="./advantage.html?id=1">实体店铺宣传策划优势</a></li>
+                                                              <li><a href="./advantage.html?id=2">进出口业务优势</a></li>
+                                                              <li><a href="./advantage.html?id=3">国内外平台代运营优势</a></li>
+                                                            </ul>
+                                    </div>
+                                </li>
                                 <li class="liuzi-header">
                                     <div class="li-parent-div li-parentOne-div"><a
                                             href="./liuzi.html">在线留言 </a></div>
@@ -2470,7 +2481,18 @@
                                         href="./business.html">主营业务</a></div>
                                 <i class="nav_simpline_cur"></i>
                             </li>
-                           
+                            <li class="advantage-header">
+                                <div class="li-parent-div li-parentOne-div">
+                                    <a href="./advantage.html">业务优势<i class="fa fa-plus"></i></a></div>
+                                <i class="nav_simpline_cur"></i>                   <div class="submenu">
+                                  <div class="back-div"><i class="fa fa-angle-left"></i><span>返回</span></div>
+                                  <ul>
+                                    <li><a href="./advantage.html?id=1">实体店铺宣传策划优势</a></li>
+                                    <li><a href="./advantage.html?id=2">进出口业务优势</a></li>
+                                    <li><a href="./advantage.html?id=3">国内外平台代运营优势</a></li>
+                                </ul>
+                                </div>
+                             </li>
                             <li class="liuzi-header">
                                 <div class="li-parent-div li-parentOne-div"><a
                                         href="./liuzi.html">在线留言 </a></div>
@@ -2493,6 +2515,8 @@
                                 $('.liuzi-header').addClass('active')
                             } else if (window.location.href.includes('/contact.html')) {
                                 $('.contact-header').addClass('active')
+                            } else if (window.location.href.includes('/advantage.html')) {
+                                $('.advantage-header').addClass('active')
                             }else {
                                 $('.home-header').addClass('active')
                             }
